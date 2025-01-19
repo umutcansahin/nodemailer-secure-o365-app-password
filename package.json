@@ -1,0 +1,19 @@
+{
+  "name": "nodemailer-secure-o365-app-password",
+  "version": "1.0.0",
+  "description": "Send emails via O365 with Nodemailer using an app password",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["nodemailer","office365","email","app password"],
+  "author": "Umutcan SAHIN aka Daniel HAWK",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  }
+}
